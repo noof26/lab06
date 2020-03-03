@@ -1,0 +1,72 @@
+html {
+2   background-color: #099;
+3   color: white;
+4   font-family: sans-serif;
+5 }
+6 body {
+7   max-width: 500px;
+8   margin: 0 auto;
+9   background-color: #077;
+10 }
+11 header {
+12   background-color: #044;
+13   overflow: auto;
+14   padding: 0 1em;
+15 }
+16 main {
+17   padding: 0em;
+18   text-align: right;
+19   font-size: 1.5em;
+20 }
+21 ul {
+22   padding: 0;
+23   margin: 0;
+24 }
+25 li, div {
+26   display: flex;
+27   justify-content: space-between;
+28 }
+29 li {
+30   padding: 0.25em 0.5em 0.25em 1em;
+31   border-bottom: 0.5px solid #044;
+32   transition: 0.6s;
+33 }
+34 li:hover {
+35   background-color: #066;
+36 }
+37 li:first-child {
+38   border-top: 0.5px solid #044;
+39 }
+40 li button {
+41   opacity: 0.05;
+42   transition: 0.4s;
+43   background: none;
+44   border: none;
+45 }
+46 li:hover button {
+47   opacity: 0.4;
+48 }
+49 li button:hover {
+50   opacity: 1;
+51 }
+52 button, input {
+53   font-size: inherit;
+54 }
+55 input {
+56   padding-left: 1em;
+57   flex: 1;
+58   min-width: 5em;
+59 }
+60 #clearBtn {
+61   width: 100%;
+62 }
+63
+
+64 @media screen and (min-width: 500px) {
+65   body {
+66     max-width: 500px;
+67     margin: 1em auto;
+68   }
+69
+
+70 }
